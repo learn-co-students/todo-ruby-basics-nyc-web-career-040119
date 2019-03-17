@@ -11,6 +11,7 @@ def argue(phrase)
 end
 
 def greeting(greeting, name)
+  "#{greeting} #{name}"
 end
 
 def return_a_value
@@ -18,9 +19,10 @@ def return_a_value
 end
 
 def last_evaluated_value
+  "beginner"
   "expert"
 end
 
-def pizza_party(pizza_party = "cheese")
-  pizza_party
+def pizza_party(topping = "cheese")
+  topping
 end
